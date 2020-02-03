@@ -1,0 +1,44 @@
+body{
+  background-color:#3F4354;
+  margin:0;
+  padding:0;
+  height:900px;
+}
+
+.left{
+  background-color:#ffffff;
+  width:100px;
+  height:100px;
+  border-radius:100%;
+}
+
+
+.border{
+  border-bottom:1px solid #3F4354;;
+  width:100%;
+  position:absolute;
+  top:6.5%;
+}
+
+.left:hover{
+  border-radius:0;
+  height:50%;
+  width:300px;
+}
+
+.test-mailing {
+  text-align:center;
+}
+.test-mailing h1{
+  color:#ffffff;
+}
+.btn--submit{
+  width:10%;
+  height:50px;
+  border-radius:4px;
+  border:none;
+}
+
+.btn--submit:hover{
+  background-color: purple;
+}
