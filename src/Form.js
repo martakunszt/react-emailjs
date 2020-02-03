@@ -12,7 +12,7 @@ export default class extends React.Component {
         return(
             <form className = "test-mailing">
                 <h1>Send me an email</h1>
-                <div>
+                <div className="right">
                     <textarea 
                     id= 'test-mailing'
                     name = 'test-mailing'

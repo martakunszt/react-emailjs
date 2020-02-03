@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <header>
         <Left></Left>
-        <Border></Border>
         <Form></Form>
       </header>
     </div>
@@ -17,16 +16,10 @@ function App() {
 function Left() {
   return (
     <div className="left">
-      <Border></Border>
+    
     </div>
   );
 }
-function Border() {
-  return (
-    <div className="border">
-      
-    </div>
-  );
-}
+
 
 export default App;
