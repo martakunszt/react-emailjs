@@ -17,7 +17,7 @@ export default class extends React.Component {
                     id= 'test-mailing'
                     name = 'test-mailing'
                     onChange= {this.handleChange}
-                    placeholder = 'Post some lorem ipsum here'
+                    placeholder = '...'
                     requiredvalue = {this.state.feedback}
                     style = {{width:'40%', height: '150px', marginBottom:'50px'}}
                     />
